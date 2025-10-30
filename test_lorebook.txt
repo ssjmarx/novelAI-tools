@@ -1,0 +1,120 @@
+================================================================================
+NOVELAI LOREBOOK
+================================================================================
+Version: 6
+Exported: 2025-10-29 21:14:03
+
+CATEGORIES
+----------------------------------------
+Category: Locations
+ID: 1b190824-2fbb-4df4-a000-c47bb067fb65
+Enabled: True
+
+Category: Characters
+ID: 2c3d4e5f-6789-0123-4567-89abcdef0123
+Enabled: True
+
+LORE ENTRIES
+----------------------------------------
+ENTRY #1
+============================================================
+Display Name: The Ancient Library of Alexandria
+ID: 358d42a5-caa2-4f1e-b34f-5b960e45d9be
+Category: Locations (1b190824-2fbb-4df4-a000-c47bb067fb65)
+Activation Keys: Alexandria
+Enabled: True
+Force Activation: False
+Search Range: 1000
+
+CONTENT:
+--------------------
+Title: The Ancient Library of Alexandria
+Description: Type: Locations
+A vast repository of knowledge from the ancient world, containing countless scrolls and texts on philosophy, mathematics, astronomy, and medicine. The library was a center of scholarly activity and attracted thinkers from across the Mediterranean.
+
+CONTEXT CONFIGURATION:
+-------------------------
+Prefix: ''
+Suffix: '\n'
+Token Budget: 150
+Budget Priority: 400
+Trim Direction: trimBottom
+
+ADVANCED CONDITIONS:
+----------------------
+  (No advanced conditions)
+
+LORE BIAS GROUPS:
+------------------
+  (No lore bias groups)
+
+
+ENTRY #2
+============================================================
+Display Name: Master Elara
+ID: a2b3c4d5-e6f7-8901-2345-6789abcdef01
+Category: Characters (2c3d4e5f-6789-0123-4567-89abcdef0123)
+Activation Keys: 
+Enabled: True
+Force Activation: False
+Search Range: 800
+
+CONTENT:
+--------------------
+Title: Master Elara
+Description: Type: Characters
+A powerful sorceress who serves as the guardian of the mystical realm. She possesses ancient magic passed down through generations and is known for her wisdom in matters both magical and political. Elara has silver hair that seems to shimmer with an otherworldly light.
+
+CONTEXT CONFIGURATION:
+-------------------------
+Prefix: ''
+Suffix: '\n'
+Token Budget: 120
+Budget Priority: 500
+Trim Direction: trimBottom
+
+ADVANCED CONDITIONS:
+----------------------
+  (No advanced conditions)
+
+LORE BIAS GROUPS:
+------------------
+  (No lore bias groups)
+
+
+ENTRY #3
+============================================================
+Display Name: The Crystal Caves
+ID: b3c4d5e6-f7g8-9012-3456-789abcdef012
+Category: Locations (1b190824-2fbb-4df4-a000-c47bb067fb65)
+Activation Keys: crystals, caves
+Enabled: True
+Force Activation: False
+Search Range: 900
+
+CONTENT:
+--------------------
+Title: The Crystal Caves
+Description: Type: Locations
+Deep beneath the earth lies a network of caves filled with glowing crystals that pulse with magical energy. These caves are said to be the source of all magic in the realm, and many adventurers seek their power despite the dangers within.
+
+CONTEXT CONFIGURATION:
+-------------------------
+Prefix: ''
+Suffix: '\n'
+Token Budget: 100
+Budget Priority: 450
+Trim Direction: trimBottom
+
+ADVANCED CONDITIONS:
+----------------------
+  (No advanced conditions)
+
+LORE BIAS GROUPS:
+------------------
+  (No lore bias groups)
+
+
+SETTINGS
+----------------------------------------
+orderByKeyLocations: False
