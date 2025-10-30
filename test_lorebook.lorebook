@@ -1,0 +1,135 @@
+{
+  "lorebookVersion": 6,
+  "entries": [
+    {
+      "text": "----\nThe Ancient Library of Alexandria\nType: Locations\nA vast repository of knowledge from the ancient world, containing countless scrolls and texts on philosophy, mathematics, astronomy, and medicine. The library was a center of scholarly activity and attracted thinkers from across the Mediterranean.",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 150,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1761782730428,
+      "displayName": "The Ancient Library of Alexandria",
+      "id": "358d42a5-caa2-4f1e-b34f-5b960e45d9be",
+      "keys": [
+        "Alexandria"
+      ],
+      "searchRange": 1000,
+      "enabled": true,
+      "forceActivation": false,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "1b190824-2fbb-4df4-a000-c47bb067fb65",
+      "loreBiasGroups": [],
+      "advancedConditions": []
+    },
+    {
+      "text": "----\nMaster Elara\nType: Characters\nA powerful sorceress who serves as the guardian of the mystical realm. She possesses ancient magic passed down through generations and is known for her wisdom in matters both magical and political. Elara has silver hair that seems to shimmer with an otherworldly light.",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 120,
+        "reservedTokens": 0,
+        "budgetPriority": 500,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1761782730428,
+      "displayName": "Master Elara",
+      "id": "a2b3c4d5-e6f7-8901-2345-6789abcdef01",
+      "keys": [],
+      "searchRange": 800,
+      "enabled": true,
+      "forceActivation": false,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "2c3d4e5f-6789-0123-4567-89abcdef0123",
+      "loreBiasGroups": [],
+      "advancedConditions": []
+    },
+    {
+      "text": "----\nThe Crystal Caves\nType: Locations\nDeep beneath the earth lies a network of caves filled with glowing crystals that pulse with magical energy. These caves are said to be the source of all magic in the realm, and many adventurers seek their power despite the dangers within.",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 100,
+        "reservedTokens": 0,
+        "budgetPriority": 450,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1761782730428,
+      "displayName": "The Crystal Caves",
+      "id": "b3c4d5e6-f7g8-9012-3456-789abcdef012",
+      "keys": [
+        "crystals",
+        "caves"
+      ],
+      "searchRange": 900,
+      "enabled": true,
+      "forceActivation": false,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "1b190824-2fbb-4df4-a000-c47bb067fb65",
+      "loreBiasGroups": [],
+      "advancedConditions": []
+    }
+  ],
+  "categories": [
+    {
+      "name": "Locations",
+      "id": "1b190824-2fbb-4df4-a000-c47bb067fb65",
+      "enabled": true,
+      "createSubcontext": false,
+      "subcontextSettings": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 100,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "useCategoryDefaults": false,
+      "categoryDefaults": {},
+      "categoryBiasGroups": [],
+      "settings": {}
+    },
+    {
+      "name": "Characters",
+      "id": "2c3d4e5f-6789-0123-4567-89abcdef0123",
+      "enabled": true,
+      "createSubcontext": false,
+      "subcontextSettings": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 100,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "useCategoryDefaults": false,
+      "categoryDefaults": {},
+      "categoryBiasGroups": [],
+      "settings": {}
+    }
+  ],
+  "settings": {
+    "orderByKeyLocations": false
+  }
+}
